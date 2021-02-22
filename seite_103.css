@@ -1,0 +1,196 @@
+
+ @font-face {
+    font-family: 'akzidenz_grotesk';
+    src: url('berthold_akzidenz_grotesk_be_regular-webfont.woff2') format('woff2'),
+         url('berthold_akzidenz_grotesk_be_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	font-family: "akzidenz_grotesk", Arial, sans-serif;
+	font-size: 16px;
+	background-color: #545454;
+}
+
+body {
+	margin: 5px;
+}
+
+
+
+.layout {
+	width: 55vw;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 0 28px 0 58px;
+	background-color: #fcfbf7;
+	box-shadow: 0em 0.1em 0.5em #404040;
+}
+
+
+.layout-item {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.row-item {
+	margin: 0;
+	padding: 0;
+}
+
+
+.col {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.col .in {
+	padding: 0 15px 0 0;
+}
+
+.col .out {
+	padding: 0 15px 0 0;
+}
+
+
+.col-item {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.toptop {
+	margin: 40px 15px 250px 0;
+}
+
+.top {
+	margin: 0 0 20px 0;
+}
+
+.bottom {
+	margin: 0 16px 0 0;
+
+}
+
+.zahl {
+	margin: 1.5px 0 0 0;
+
+}
+
+.bottombottom {
+	margin: 20px 0 220px 0;
+
+}
+
+
+
+
+h3 {
+	font-size: 85%; 
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 85%; 
+	font-weight: 400;
+	margin: 0;
+	text-align: justify;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+	hyphens: auto;
+}
+
+
+h5 {
+	font-size: 70%; 
+	font-weight: 400;
+	margin: 0;
+}
+
+
+
+
+.raster {
+	display: flex;
+	flex-flow: row wrap;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+
+.raster-item {
+	width: 48%;
+	border: 1px solid red;
+	margin: 0;
+	padding: 0;
+}
+
+
+#redout {
+	background-color: red;
+	width: 102%;
+	margin: 0;
+	font-size: 102%;
+	font-weight: 700;
+	height: 260px;
+}
+
+#abstand {
+	margin: 15px 15px 15px 15px ;
+	height: 86%;
+	overflow-y: hidden;
+}
+
+
+#redin {
+	color: red;
+	width: 102%;
+	margin: 0;
+	font-size: 102%;
+	font-weight: 700;
+	overflow: hidden;
+	height: 260px;
+}
+
+
+.leer {
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+	border-top: none;
+	border-bottom: none;
+	color: #ffffff;
+	padding: 2px 0 2px 0;
+}
+
+
+
+#seitenzahl {
+	position: relative;
+	left: -38px;
+	top: -190px;
+}
